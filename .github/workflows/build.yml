@@ -33,7 +33,7 @@ jobs:
         run: west update
       - name: West Zephyr export
         run: west zephyr-export
-      - name: West Build (QAZ)
+      - name: West Build (UT47)
         run: west build -s zmk/app -b nice_nano -- -DSHIELD=ut47 -DZMK_CONFIG="${GITHUB_WORKSPACE}/config"
       - name: UT47 DTS File
         if: ${{ always() }}
