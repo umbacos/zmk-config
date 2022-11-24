@@ -67,11 +67,7 @@
 
     nav {
             bindings = <
-    &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none   &none      &kp UP     &none       &none   &none
-    &bt BT_NXT   &trans       &kp LCTRL    &none        &kp LSHFT    &none        &none   &kp LEFT   &kp DOWN   &kp RIGHT   &none   &none
-    &bt BT_PRV   &none        &none        &none        &none        &none        &none   &none      &none      &none       &none   &none
-    &bootloader  &reset       &none        &none        &none               &none         &none      &none      &none       &none   &none
-            >;
+Rrrrrtttyy2345eeeeeeewwwwfffffyyyydddyzttttfffffffffffffffffffffffffffffffrfrfrfriieeeeeetwertwertwertertwertwrtu            >;
         };
     };
 };
