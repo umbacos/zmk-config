@@ -51,7 +51,7 @@
 
         first_layer {
             bindings = <&none &none &none &none &none &kp INS  &none &none &bt BT_SEL 0 &mo L_NAV
-                        &none &none &none &none &none &kp DEL  &none &none &RET         &kp SPACE
+                        &none &none &none &none &none &kp DEL  &none &none &kp RET      &kp SPACE
                         &none &none &none &none &none &kp HOME &none &none &kp END      &kp ESC
                  >;
         };
