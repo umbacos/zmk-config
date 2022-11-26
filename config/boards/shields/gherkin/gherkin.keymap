@@ -16,38 +16,28 @@
 
 / {
     macros {
-    zed_em_kay: zed_em_kay {
-    label = "ZM_zed_em_kay";
-    compatible = "zmk,behavior-macro";
-    #binding-cells = <0>;
-    bindings
-        = <&macro_press &kp LSHFT>
-        , <&macro_tap &kp Z &kp M &kp K>
-        , <&macro_release &kp LSHFT>
-        ;
-};
 
-  /*      ZMK_MACRO(jog_01,
+        ZMK_MACRO(jog_01,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&kp MINUS &kp MINUS &kp MINUS>;
+            bindings = <&macro_tap &kp MINUS &kp MINUS &kp MINUS>;
             )
         ZMK_MACRO(jog_1,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&kp MINUS &kp MINUS &kp MINUS &kp PLUS>;
+            bindings = <&macro_tap &kp MINUS &kp MINUS &kp MINUS &kp PLUS>;
             )
         ZMK_MACRO(jog_10,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&kp PLUS &kp PLUS &kp PLUS &kp MINUS>;
+            bindings = <&macro_tap &kp PLUS &kp PLUS &kp PLUS &kp MINUS>;
             )
         ZMK_MACRO(jog_100,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&kp PLUS &kp PLUS &kp PLUS>;
+            bindings = <&macro_tap &kp PLUS &kp PLUS &kp PLUS>;
             )
-*/    };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -66,13 +56,13 @@
                  >;
         };
 
-    /*    left_layer {
+        left_layer {
             bindings = <&mo L_NAV &kp UP   &none     &kp PG_UP &kp SLASH &none &none &none &kp BT_SEL 0 &mo L_NAV
                         &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &kp STAR  &none &none &none &none        &none
                         &jog_01   &jog_1   &jog_10   &jog_100  &kp HOME  &none &none &none &none        &none
                         >;
         };
-*/
+
         third_layer {
             bindings = <&none &none &none &none &none &none &none &none &none &none
                         &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &none &bt BT_NXT &bt BT_PRV
