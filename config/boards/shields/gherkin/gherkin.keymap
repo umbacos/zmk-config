@@ -15,35 +15,57 @@
 
 
 / {
+    macros {
+        ZMK_MACRO(jog_01,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp MINUS &kp MINUS &kp MINUS>;
+            )
+        ZMK_MACRO(jog_1,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp MINUS &kp MINUS &kp MINUS &kp PLUS>;
+            )
+        ZMK_MACRO(jog_10,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp PLUS &kp PLUS &kp PLUS &kp MINUS>;
+            )
+        ZMK_MACRO(jog_100,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp PLUS &kp PLUS &kp PLUS>;
+            )
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <&mo L_RIGHT &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &mo L_LEFT
-                        &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp ESC
-                        &mt LSFT Z &mt LALT X &lt 3 C &lt 4 V &lt 2 BSPC &lt 1 SPACE &kp B &mt RALT N &mt RCTL M &mt LSFT RET
+            bindings = <&mo L_RIGHT &none &none &none &none &none &none &none &bt BT_SEL 0  &mo L_LEFT
+                        &none &none &none &none &none &none &none &none &none &none
+                        &none &none &none &none &none &none &none &none &none &none
                         >;
         };
 
-        first_layer {
-            bindings =
-                <&mo L_NAV &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &mo L_NAV
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        right_layer {
+            bindings = <&mo L_NAV &none &none &none &none &kp INS  &none &none BT_SEL 0 &mo L_NAV
+                        &none     &none &none &none &none &kp DEL  &none &none &none    &kp SPACE
+                        &none     &none &none &none &none &kp HOME &none &none &kp END  &kp ESC
                  >;
         };
 
-        second_layer {
-            bindings = <&mo L_NAV &trans &trans &trans &trans &trans &trans &trans &trans &mo L_NAV
-                        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                        &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+        left_layer {
+            bindings = <&mo L_NAV &kp UP   &none     &kp PG_UP &kp SLASH &none &none &none &kp BT_SEL 0 &mo L_NAV
+                        &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &kp STAR  &none &none &none &none        &none
+                        &jog_01   &jog_1   &jog_10   &jog_100  &kp HOME  &none &none &none &none        &none
                         >;
         };
 
         third_layer {
-            bindings = <&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-                        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &bt BT_NXT &bt BT_PRV
-                        &bootloader &trans &trans &trans &trans &trans &trans &trans &trans &reset
+            bindings = <&none &none &none &none &none &none &none &none &none &none
+                        &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &none &bt BT_NXT &bt BT_PRV
+                        &bootloader &none &none &none &none &none &none &none &none &reset
 
                         >;
         };
