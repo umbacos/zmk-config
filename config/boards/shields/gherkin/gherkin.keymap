@@ -25,17 +25,17 @@
             ZMK_MACRO(jog_1,
                 wait-ms = <30>;
                 tap-ms = <40>;
-                bindings = <&kp MINUS &kp MINUS &kp MINUS &kp PLUS>;
+                bindings = <&kp MINUS &kp MINUS &kp MINUS &kp EQUAL>;
                 )
             ZMK_MACRO(jog_10,
                 wait-ms = <30>;
                 tap-ms = <40>;
-                bindings = <&kp PLUS &kp PLUS &kp PLUS &kp MINUS>;
+                bindings = <&kp EQUAL &kp EQUAL &kp EQUAL &kp MINUS>;
                 )
             ZMK_MACRO(jog_100,
                 wait-ms = <30>;
                 tap-ms = <40>;
-                bindings = <&kp PLUS &kp PLUS &kp PLUS>;
+                bindings = <&kp EQUAL &kp EQUAL &kp EQUAL>;
                 )
         };
 
@@ -51,7 +51,7 @@
 
         first_layer {
             bindings = <&none &none &none &none &none &kp INS  &none &none &bt BT_SEL 0 &mo L_NAV
-                        &none &none &none &none &none &kp DEL  &none &none &none        &kp SPACE
+                        &none &none &none &none &none &kp DEL  &none &none &RET         &kp SPACE
                         &none &none &none &none &none &kp HOME &none &none &kp END      &kp ESC
                  >;
         };
