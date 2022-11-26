@@ -20,22 +20,22 @@
         ZMK_MACRO(jog_01,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&macro_tap &kp MINUS &kp MINUS &kp MINUS>;
+            bindings = <&kp MINUS &kp MINUS &kp MINUS>;
             )
         ZMK_MACRO(jog_1,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&macro_tap &kp MINUS &kp MINUS &kp MINUS &kp PLUS>;
+            bindings = <&kp MINUS &kp MINUS &kp MINUS &kp PLUS>;
             )
         ZMK_MACRO(jog_10,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&macro_tap &kp PLUS &kp PLUS &kp PLUS &kp MINUS>;
+            bindings = <&kp PLUS &kp PLUS &kp PLUS &kp MINUS>;
             )
         ZMK_MACRO(jog_100,
             wait-ms = <30>;
             tap-ms = <40>;
-            bindings = <&macro_tap &kp PLUS &kp PLUS &kp PLUS>;
+            bindings = <&kp PLUS &kp PLUS &kp PLUS>;
             )
     };
 
