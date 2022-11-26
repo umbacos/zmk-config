@@ -19,20 +19,41 @@
     zed_em_kay: zed_em_kay {
     label = "ZM_zed_em_kay";
     compatible = "zmk,behavior-macro";
-    //#binding-cells = <0>;
+    #binding-cells = <0>;
     bindings
         = <&macro_press &kp LSHFT>
         , <&macro_tap &kp Z &kp M &kp K>
         , <&macro_release &kp LSHFT>
         ;
 };
-    };
+
+  /*      ZMK_MACRO(jog_01,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp MINUS &kp MINUS &kp MINUS>;
+            )
+        ZMK_MACRO(jog_1,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp MINUS &kp MINUS &kp MINUS &kp PLUS>;
+            )
+        ZMK_MACRO(jog_10,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp PLUS &kp PLUS &kp PLUS &kp MINUS>;
+            )
+        ZMK_MACRO(jog_100,
+            wait-ms = <30>;
+            tap-ms = <40>;
+            bindings = <&kp PLUS &kp PLUS &kp PLUS>;
+            )
+*/    };
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <&mo L_RIGHT &none &none &none &none &none &none &none &bt BT_SEL 0  &mo L_LEFT
+            bindings = <&mo L_RIGHT &zed_em_kay &none &none &none &none &none &none &bt BT_SEL 0  &mo L_LEFT
                         &none &none &none &none &none &none &none &none &none &none
                         &none &none &none &none &none &none &none &none &none &none
                         >;
