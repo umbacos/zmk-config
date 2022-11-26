@@ -26,10 +26,9 @@
         };
 
         first_layer {
-            bindings =
-            bindings = <&mo L_NAV &none &none &none &none &kp INS  &none &none BT_SEL 0 &mo L_NAV
-                        &none     &none &none &none &none &kp DEL  &none &none &none    &kp SPACE
-                        &none     &none &none &none &none &kp HOME &none &none &kp END  &kp ESC
+            bindings = <&none &none &none &none &none &kp INS  &none &none BT_SEL 0 &mo L_NAV
+                        &none &none &none &none &none &kp DEL  &none &none &none    &kp SPACE
+                        &none &none &none &none &none &kp HOME &none &none &kp END  &kp ESC
                  >;
         };
 
