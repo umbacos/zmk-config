@@ -13,7 +13,6 @@
 #define L_LEFT    2
 #define L_NAV     3
 
-
 / {
 
     macros {
@@ -60,7 +59,7 @@
         second_layer {
             bindings = <&mo L_NAV &kp UP   &none     &kp PG_UP &kp SLASH &none    &none &none &bt BT_SEL 0 &mo L_NAV
                         &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &kp STAR  &none    &none &none &none        &none
-                        &none     &none    &none     &none     &none     &kp HOME &none &none &none        &none
+                        &jog_01   &jog_1   &jog_10   &jog_100  &kp HOME  &none    &none &none &none        &none
                         >;
         };
 
