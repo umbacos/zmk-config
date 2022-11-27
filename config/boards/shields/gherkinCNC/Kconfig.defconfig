@@ -1,0 +1,6 @@
+if SHIELD_GHERKINCNC
+
+config ZMK_KEYBOARD_NAME
+    default "CNC Gherkin"
+
+endif
