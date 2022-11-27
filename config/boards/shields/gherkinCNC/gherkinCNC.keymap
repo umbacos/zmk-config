@@ -12,8 +12,8 @@
 #define L_RIGHT   1
 #define L_LEFT    2
 #define L_NAV     3
-#define L_S0      4
-#define L_G0      5
+#define L_G0      4
+#define L_S0      5
 #define L_PROBE   6
  
 / {
@@ -74,17 +74,17 @@
                         >;
         };
 
-        s0_layer {
-        bindings = <&none     &kp AT   &none     &kp HASH &none &none &none &none &none  &none
-                    &kp EXCL  &kp AT   &kp EXCL  &kp HASH &none &none &none &none &none  &none
-                    &none     &none    &none     &none    &none &none &none &none &none  &none
-                    >;
-        };
-
         g0_layer {
         bindings = <&none       &kp PERCENT &none      &kp CARET &none &none &none &none &none  &none
                     &kp DOLLAR  &kp PERCENT &kp DOLLAR &kp CARET &none &none &none &none &none  &none
                     &none       &none       &none      &none  &none &none &none &none &none  &none
+                    >;
+        };
+
+        s0_layer {
+        bindings = <&none     &kp AT   &none     &kp HASH &none &none &none &none &none  &none
+                    &kp EXCL  &kp AT   &kp EXCL  &kp HASH &none &none &none &none &none  &none
+                    &none     &none    &none     &none    &none &none &none &none &none  &none
                     >;
         };
 
