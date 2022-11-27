@@ -15,7 +15,7 @@
 #define L_S0      4
 #define L_G0      5
 #define L_PROBE   6
- 
+
 / {
 
     macros {
@@ -46,16 +46,16 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <&mo L_RIGHT &none &none &none &none &mo L_S0    &mo L_S0 &none &bt BT_SEL 0  &mo L_LEFT
-                        &none &none &none &none &none &none &mo L_G0    &mo L_G0 &none &none
-                        &none &none &none &none &none &none &mo L_PROBE &mo L_PROBE &none &none
+            bindings = <&mo L_RIGHT &none &none &none &none &none &none &mo L_S0    &bt BT_SEL 0  &mo L_LEFT
+                        &none       &none &none &none &none &none &none &mo L_G0    &none         &none
+                        &none       &none &none &none &none &none &none &mo L_PROBE &none         &none
                         >;
         };
 
         right_layer {
-            bindings = <&none &none &none &none &none &kp INS  &none &none &bt BT_SEL 0 &mo L_NAV
-                        &none &none &none &none &none &kp DEL  &none &none &kp RET      &kp SPACE
-                        &none &none &none &none &none &kp N7 &none &none &kp END      &kp ESC
+            bindings = <&none &none &none &none &none &none &kp AMPS &kp INS  &bt BT_SEL 0 &mo L_NAV
+                        &none &none &none &none &none &none &kp RPAR &kp DEL  &kp RET      &kp SPACE
+                        &none &none &none &none &none &none &none    &kp N7   &kp END      &kp ESC
                  >;
         };
 
@@ -84,7 +84,7 @@
         g0_layer {
         bindings = <&none       &kp PERCENT &none      &kp CARET &none &none &none &none &none  &none
                     &kp DOLLAR  &kp PERCENT &kp DOLLAR &kp CARET &none &none &none &none &none  &none
-                    &none       &none       &none      &none  &none &none &none &none &none  &none
+                    &none       &none       &none      &none     &none &none &none &none &none  &none
                     >;
         };
 
