@@ -76,9 +76,9 @@
         };
 
         s0_layer {
-        bindings = <&none     &kp UP   &none     &kp PG_UP &none &none &none &none &none  &none
-                    &kp LEFT  &kp DOWN &kp RIGHT &kp PG_DN &none &none &none &none &none  &none
-                    &none     &none    &none     &none     &none &none &none &none &none  &none
+        bindings = <&none     &kp N2   &none     &kp N3 &none &none &none &none &none  &none
+                    &kp N1    &kp N2   &kp N1    &kp N3 &none &none &none &none &none  &none
+                    &none     &none    &none     &none  &none &none &none &none &none  &none
                     >;
         };
 
