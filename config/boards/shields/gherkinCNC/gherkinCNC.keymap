@@ -82,9 +82,9 @@
         };
 
         g0_layer {
-        bindings = <&none   &kp N5 &none  &kp N6 &none &none &none &none &none  &none
-                    &kp N4  &kp N5 &kp N4 &kp N6 &none &none &none &none &none  &none
-                    &none   &none  &none  &none  &none &none &none &none &none  &none
+        bindings = <&none       &kp PERCENT &none      &kp CARET &none &none &none &none &none  &none
+                    &kp DOLLAR  &kp PERCENT &kp DOLLAR &kp CARET &none &none &none &none &none  &none
+                    &none       &none       &none      &none  &none &none &none &none &none  &none
                     >;
         };
 
