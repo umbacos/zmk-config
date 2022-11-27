@@ -14,8 +14,7 @@
 #define L_NAV     3
 #define L_S0      4
 #define L_G0      5
-#define L_HOME    6
-#define L_PROBE   7
+#define L_PROBE   6
  
 / {
 
