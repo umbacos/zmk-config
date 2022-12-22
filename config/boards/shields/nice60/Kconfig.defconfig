@@ -1,6 +1,0 @@
-if SHIELD_GHERKINCNC
-
-config ZMK_KEYBOARD_NAME
-    default "nice60"
-
-endif
