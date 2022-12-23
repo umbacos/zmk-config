@@ -29,7 +29,7 @@
 	&mt LSHFT CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp IT_SCLN &kp IT_QUOT    &mt RSHFT RET
 	&lt SFT DEL     &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp IT_COMM &kp IT_FULL &kp IT_SLSH  &mo SFT
 //	&kp LCTRL &kp ALT &kp LGUI            &lt ACC SPACE                     &lt ACC UP  &mt RGUI LEFT &lt NAV DOWN &mt RCTRL RIGHT
-&trans &trans &trans &trans &trans &trans &trans &trans
+&kp LCTRL &kp ALT &kp LGUI &lt ACC SPACE &trans &trans &trans &trans
 			>;
 		};
 
