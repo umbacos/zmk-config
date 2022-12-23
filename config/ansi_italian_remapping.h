@@ -50,5 +50,6 @@
 #define IT_QSTN LS(MINUS)
 #define IT_MINO GRAVE
 #define IT_MAJO LS(GRAVE)
-#define IT_BSLS NON_US_HASH //0x64     // Non US backslash
-#define IT_PIPE LS(NON_US_HASH) // Non US pipe |
+//#define IT_BSLS NON_US_HASH //0x64     // Non US backslash
+#define IT_BSLS BSLH
+#define IT_PIPE LS(BSLH) // Non US pipe |
