@@ -52,7 +52,7 @@
 	&kp TAB  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &kp LS(Y) &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)  &kp LBKT  &kp RBKT  &kp IT_PIPE
 	&kp CLCK  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp IT_COLN &kp IT_DQUO           &kp LS(RET)
 	&kp LSHFT   &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &kp LS(N)  &kp LS(M)  &kp IT_MINO &kp IT_MAJO &kp IT_QSTN           &kp RSHFT
-	&kp LCTRL &kp LGUI &kp LALT             &kp LS(SPACE)                     &kp LS(RALT)  &mt LS(RGUI) LS(LEFT) &lt NAV LS(DOWN) &mt LS(RCTRL) LS(RIGHT)
+	&kp LS(LCTRL) &kp LS(LGUI) &kp LS(LALT)             &kp LS(SPACE)                     &kp LS(RALT)  &mt LS(RGUI) LS(LEFT) &lt NAV LS(DOWN) &mt LS(RCTRL) LS(RIGHT)
 			>;
 		};
 
@@ -65,10 +65,10 @@
 // |  CTL  |  WIN  |  ALT  |            SPACE              |  ALT  |  WIN  |  MO(1) |  CTL  |
 // ------------------------------------------------------------------------------------------
 			bindings = <
-	&gresc  &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp MINUS &kp EQUAL  &kp BSPC
-	&kp TAB  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &kp LS(Y) &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)  &kp LBKT  &kp RBKT  &kp BSLH
-	&kp CLCK  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp IT_COLN &kp IT_DQUO           &kp LS(RET)
-	&kp LSHFT   &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH           &kp UP
+	&trans &trans      &trans &trans      &trans &trans &trans &trans      &trans      &trans      &trans &trans &trans &trans
+	&trans &kp IT_EURO &trans &kp IT_EGRV &trans &trans &trans &kp IT_UGRV &kp IT_IGRV &kp IT_OGRV &trans &trans &trans &trans
+	&trans &kp IT_AGRV &trans &trans      &trans &trans &trans &trans      &trans      &trans      &trans &trans &trans
+	&kp LSHFT  &trans  &trans &trans      &trans &trans &trans &trans      &trans      &trans      &kp RSHFT
 	&kp LCTRL &kp LGUI &kp LALT             &kp SPACE                     &kp RALT  &kp LEFT  &kp DOWN   &kp RIGHT
 			>;
 		};
