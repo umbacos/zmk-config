@@ -24,12 +24,11 @@
 
     default_layer {
 			bindings = <
-	&gresc          &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp IT_MINU &kp IT_EQAL  &kp BSPC
-	&kp TAB         &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp IT_LSQR  &kp IT_RSQR  &kp IT_BSLS
-	&mt LSHFT CLCK  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp IT_SCLN &kp IT_QUOT    &mt RSHFT RET
-	&lt SFT DEL     &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp IT_COMM &kp IT_FULL &kp IT_SLSH  &mo SFT
-//	&kp LCTRL &kp ALT &kp LGUI            &lt ACC SPACE                     &lt ACC UP  &mt RGUI LEFT &lt NAV DOWN &mt RCTRL RIGHT
-&kp LCTRL &kp ALT &kp LGUI &trans  &trans &trans &trans &trans
+	&gresc          &kp N1 &kp N2 &kp N3     &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp IT_MINU &kp IT_EQAL  &kp BSPC
+	&kp TAB         &kp Q  &kp W  &kp E      &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp IT_LSQR  &kp IT_RSQR  &kp IT_BSLS
+	&mt LSHFT CLCK  &kp A  &kp S  &mt NAV D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp IT_SCLN &kp IT_QUOT    &mt RSHFT RET
+	&lt SFT DEL     &kp Z  &kp X  &kp C      &kp V  &kp B  &kp N  &kp M  &kp IT_COMM &kp IT_FULL &kp IT_SLSH  &mo SFT
+	&kp LCTRL &kp LALT &kp LGUI            &lt ACC SPACE                     &lt ACC UP  &mt RGUI LEFT &lt NAV DOWN &mt RCTRL RIGHT
 			>;
 		};
 
@@ -39,27 +38,27 @@
 	&kp TAB  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &kp LS(Y) &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)  &kp LBKT  &kp RBKT  &kp IT_PIPE
 	&kp CLCK  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp IT_COLN &kp IT_DQUO           &kp LS(RET)
 	&kp LSHFT   &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &kp LS(N)  &kp LS(M)  &kp IT_MINO &kp IT_MAJO &kp IT_QSTN           &kp RSHFT
-	&kp LS(LCTRL) &kp LS(LGUI) &kp LS(LALT)             &kp LS(SPACE)                     &kp LS(RALT)  &mt LS(RGUI) LS(LEFT) &lt NAV LS(DOWN) &mt LS(RCTRL) LS(RIGHT)
+	&kp LS(LCTRL) &kp LS(LALT) &kp LS(LGUI)              &kp LS(SPACE)                     &kp LS(RALT)  &mt LS(RGUI) LS(LEFT) &lt NAV LS(DOWN) &mt LS(RCTRL) LS(RIGHT)
 			>;
 		};
 
     acc {
 			bindings = <
-	&trans &trans      &trans &trans      &trans &trans &trans &trans      &trans      &trans      &trans &trans &trans &trans
-	&trans &kp IT_EURO &trans &kp IT_EGRV &trans &trans &trans &kp IT_UGRV &kp IT_IGRV &kp IT_OGRV &trans &trans &trans &trans
-	&trans &kp IT_AGRV &trans &trans      &trans &trans &trans &trans      &trans      &trans      &trans &trans &trans
+	&trans &kp F1      &kp F2 &kp F3      &kp F4 &kp F5 &kp F6 &kp F7      &kp F8      &kp F9      &kp F10 &kp F11 &kp F12 &trans
+	&trans &kp IT_EURO &trans &kp IT_EGRV &trans &trans &trans &kp IT_UGRV &kp IT_IGRV &kp IT_OGRV &trans  &trans  &trans  &trans
+	&trans &kp IT_AGRV &trans &trans      &trans &trans &trans &trans      &trans      &trans      &trans  &trans  &trans
 	&kp LSHFT  &trans  &trans &trans      &trans &trans &trans &trans      &trans      &trans      &kp RSHFT
-	&kp LCTRL &kp LGUI &kp LALT             &kp SPACE                     &kp RALT  &kp LEFT  &kp DOWN   &kp RIGHT
+	&kp LCTRL &kp LALT &kp LGUI              &kp SPACE                     &kp RALT  &kp LEFT  &kp DOWN    &kp RIGHT
 			>;
 		};
 
 		nav {
 			bindings = <
-	&bt BT_CLR   &kp F1    &kp F2    &kp F3  &kp F4           &kp F5          &kp F6          &kp F7          &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &rgb_ug RGB_EFR
-	&bt BT_SEL 0  &trans    &kp UP    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans   &trans   &trans   &trans  &trans          &bootloader
-	&bt BT_SEL 1   &kp LEFT  &kp DOWN  &kp RIGHT &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD &trans   &trans   &trans   &trans        &rgb_ug RGB_EFF
-	&bt BT_SEL 2    &trans    &trans    &trans   &trans          &trans          &trans          &trans          &trans   &trans   &trans                          &trans
-	&bt BT_SEL 3  &trans   &trans                            &rgb_ug RGB_TOG                                      &kp PSCRN      &trans      &trans               &kp DEL
+	&bootloader    &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans &trans &trans &trans &trans &trans &trans  &rgb_ug RGB_EFR
+	&rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans &trans UP     &trans   &trans   &trans   &trans  &trans     &trans &trans
+	&rgb_ug RGB_HUD  &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD  &kp LSHFT &trans LEFT   DOWN   RIGHT   &trans   &trans  &trans     &rgb_ug RGB_EFF
+	&trans  &trans &trans    &trans   &trans          &trans          &trans          &trans          &trans   &trans   &trans                          &trans
+	&trans  &trans &trans                            &rgb_ug RGB_TOG                                      &kp PSCRN      &trans      &trans               &kp DEL
 			>;
 		};
 	};
