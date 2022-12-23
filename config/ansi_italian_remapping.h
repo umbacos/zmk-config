@@ -52,4 +52,4 @@
 #define IT_MAJO LS(GRAVE)
 //#define IT_BSLS NON_US_HASH //0x64     // Non US backslash
 #define IT_BSLS BSLH
-#define IT_PIPE LS(BSLH) // Non US pipe |
+#define IT_PIPE PIPE // Non US pipe |
