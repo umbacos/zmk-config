@@ -48,7 +48,7 @@
 	&trans &kp IT_EURO &trans &kp IT_EGRV &trans &trans &trans &kp IT_UGRV &kp IT_IGRV &kp IT_OGRV &trans  &trans  &trans  &trans
 	&trans &kp IT_AGRV &trans &trans      &trans &trans &trans &trans      &trans      &trans      &trans  &trans  &trans
 	&kp LSHFT  &trans  &trans &trans      &trans &trans &trans &trans      &trans      &trans      &kp RSHFT
-	&kp LCTRL &kp LALT &kp LGUI              &kp SPACE                     &kp RALT  &kp LEFT  &kp DOWN    &kp RIGHT
+	&kp LCTRL &kp LALT &kp LGUI              &kp BSPC                     &kp RALT  &kp LEFT  &kp DOWN    &kp RIGHT
 			>;
 		};
 
