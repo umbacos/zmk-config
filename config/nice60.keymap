@@ -36,7 +36,7 @@
     sft {
 			bindings = <
 	&gresc  &kp IT_EXCL &kp IT_AT   &kp IT_SHRP &kp IT_DOLL &kp IT_PERC &kp IT_POWE &kp IT_ECOM &kp IT_STAR &kp IT_LPAR &kp IT_RPAR &kp IT_UNDS &kp IT_PLUS  &kp BSPC
-	&kp TAB  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &kp LS(Y) &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)  &kp LBKT  &kp RBKT  &kp TILDE
+	&kp TAB  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)  &kp LS(Y) &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)  &kp IT_LBRK  &kp IT_RBRK  &kp TILDE
 	&kp CLCK  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp IT_COLN &kp IT_DQUO           &kp LS(RET)
 	&kp LSHFT   &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &kp LS(N)  &kp LS(M)  &kp IT_MINO &kp IT_MAJO &kp IT_QSTN           &kp RSHFT
 	&kp LS(LCTRL) &kp LS(LALT) &kp LS(LGUI)              &kp LS(SPACE)                     &kp LS(RALT)  &mt LS(RGUI) LS(LEFT) &lt NAV LS(DOWN) &mt LS(RCTRL) LS(RIGHT)
