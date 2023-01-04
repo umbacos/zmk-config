@@ -38,8 +38,8 @@
             "&kp I",
             "&kp O",
             "&kp P",
-            "&kp LA(LEFT_BRACKET)",
-            "&kp LA(RIGHT_BRACKET)",
+            "&kp RA(LEFT_BRACKET)",
+            "&kp RA(RIGHT_BRACKET)",
             "&kp GRAVE",
             "&kp INS",
 
@@ -112,8 +112,8 @@
             "&kp LS(I)",
             "&kp LS(O)",
             "&kp LS(P)",
-            "&kp LA(LS(LEFT_BRACKET))",
-            "&kp LA(LS(RIGHT_BRACKET))",
+            "&kp RA(LS(LEFT_BRACKET))",
+            "&kp RA(LS(RIGHT_BRACKET))",
             "&kp TILDE",
             "&kp INS",
 
@@ -176,7 +176,8 @@
             "&trans",
 
             "&trans",
-            "&kp LA(E)",
+            "&kp L
+            RA(E)",
             "&trans",
             "&kp LEFT_BRACKET",
             "&trans",
@@ -280,10 +281,11 @@
             "&bootloader",
             "&rgb_ug RGB_HUD",
 
-            "&kp C_PREV",
-            "&kp C_VOL_DN",
-            "&kp C_VOL_UP",
-            "&kp C_MUTE",
+            "&trans",
+            "&bl BL_TOG",
+            "&bl BL_CYCLE",
+            "&bl BL_INC",
+            "&bl BL_DEC",
             "&trans",
             "&trans",
             "&trans",
