@@ -96,8 +96,8 @@
             "&kp LS(RIGHT_BRACKET)",
             "&kp LS(N8)",
             "&kp LS(N9)",
-            "&kp LS(N0)",
             "&kp LS(SLASH)",
+            "&kp RIGHT_BRACKET",
             "&kp LS(BSPC)",
             "&kp LS(DEL)",
 
@@ -176,8 +176,7 @@
             "&trans",
 
             "&trans",
-            "&kp L
-            RA(E)",
+            "&kp RA(E)",
             "&trans",
             "&kp LEFT_BRACKET",
             "&trans",
