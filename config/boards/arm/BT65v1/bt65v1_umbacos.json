@@ -87,8 +87,8 @@
         [
             "&kp ESC",
             "&kp LS(N1)",
-            "&kp LA(SEMICOLON)",
-            "&kp LA(SINGLE_QUOTE)",
+            "&kp RA(SEMICOLON)",
+            "&kp RA(SINGLE_QUOTE)",
             "&kp LS(N4)",
             "&kp LS(N5)",
             "&kp LS(EQUAL)",
@@ -97,7 +97,7 @@
             "&kp LS(N8)",
             "&kp LS(N9)",
             "&kp LS(N0)",
-            "&kp RIGHT_BRACKET",
+            "&kp LS(SLASH)",
             "&kp LS(BSPC)",
             "&kp LS(DEL)",
 
@@ -174,7 +174,7 @@
             "&kp F12",
             "&trans",
             "&trans",
-    
+
             "&trans",
             "&kp LA(E)",
             "&trans",
