@@ -7,7 +7,8 @@
         "base",
         "shift",
         "accents",
-        "navigation"
+        "navigation",
+        "service"
     ],
     "layers": [
         [
@@ -30,6 +31,13 @@
  "&trans", "&kp SINGLE_QUOTE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
  "&kp LSHFT", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&kp RSHFT", "&trans", "&trans",
  "&kp LCTRL", "&kp LALT", "&kp LGUI", "&kp SPACE", "&kp RALT", "&mo 3", "&kp RCTRL", "&kp LEFT", "&kp DOWN", "&kp RIGHT"
+        ],
+        [
+ "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+ "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&kp UP", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+ "&trans", "&trans", "&trans", "&trans", "&kp LSHFT", "&trans", "&trans", "&kp LEFT", "&kp DOWN", "&kp RIGHT", "&trans", "&trans", "&trans", "&trans", 
+ "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+ "&trans", "&trans", "&trans", "&kp DEL", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
         ],
         [
  "&bootloader", "&bt BT_SEL 0", "&bt BT_SEL 1", "&bt BT_SEL 2", "&bt BT_SEL 3", "&kp F5", "&kp F6", "&kp F7", "&kp F8", "&kp F9", "&kp F10", "&kp F11", "&kp F12", "&bt BT_CLR", "&rgb_ug RGB_TOG",
