@@ -21,3 +21,4 @@ include:
 #    shield: ut47
   - board: nice60
   - board: bt65
+    shield: bt65
