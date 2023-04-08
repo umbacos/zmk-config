@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: MIT
  */
  
+#include "ansi_italian_remapping.h"
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/outputs.h>
-//#include <dt-bindings/zmk/reset.h>
+#include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/ext_power.h>
-#include "ansi_italian_remapping.h"
 
 #define DEFAULT 0
 #define SFT     1
@@ -79,7 +79,7 @@
     fun {
 			bindings = <
 	&bootloader      &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2 &bt BT_SEL 3 &trans &trans &trans &trans &trans &trans &trans &trans &bt BT_CLR
-    &rgb_ug RGB_EFR  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans       &trans       &trans &trans &trans &trans &trans &trans &reset 
+    &rgb_ug RGB_EFR  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI  &trans       &trans       &trans &trans &trans &trans &trans &trans &sys_reset 
 	&rgb_ug RGB_EFF  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_SPD  &kp LSHFT    &trans       &trans &trans &trans &trans &trans &trans 
 	&kp LSHFT        &trans          &trans          &trans           &trans       &trans       &trans &trans &trans &trans &trans &trans
 	&trans           &trans          &trans          &rgb_ug RGB_TOG  &trans    &trans &trans &trans
